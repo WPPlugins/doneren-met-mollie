@@ -1,0 +1,570 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Doneren met Mollie\n"
+"POT-Creation-Date: 2017-03-03 13:52+0100\n"
+"PO-Revision-Date: 2017-03-03 13:56+0100\n"
+"Last-Translator: Nick Dijkstra <nbdijkstra@gmail.com>, 2016\n"
+"Language-Team: Dutch (Netherlands) (https://www.transifex.com/nick-dijkstra/"
+"teams/64779/nl_NL/)\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: doneren-met-mollie.php\n"
+"X-Poedit-SearchPath-2: libs\n"
+"X-Poedit-SearchPathExcluded-0: tags\n"
+"X-Poedit-SearchPathExcluded-1: trunk\n"
+"X-Poedit-SearchPathExcluded-2: branches\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: includes/class-admin.php:31
+msgid ""
+"In order for the plugin \"Donate with Mollie\" to function properly, it is "
+"necessary to enable permalinks in your <a href=\"options-permalink.php"
+"\">Wordpress settings</a>."
+msgstr ""
+"Om de plugin “Doneren met Mollie” goed te laten functioneren, is het nodig "
+"om permalinks in te schakelen in je <a href=\"options-permalink.php"
+"\">Wordpress instellingen</a>."
+
+#: includes/class-admin.php:43 includes/class-admin.php:58
+#: includes/class-admin.php:69 includes/class-admin.php:82
+msgid "Donate with Mollie"
+msgstr "Doneren met Mollie"
+
+#: includes/class-admin.php:44 includes/class-admin.php:195
+msgid "Donations"
+msgstr "Donaties"
+
+#: includes/class-admin.php:58 includes/class-admin.php:59
+#: includes/class-admin.php:418
+msgid "Subscriptions"
+msgstr "Abonnementen"
+
+#: includes/class-admin.php:69 includes/class-admin.php:70
+#: includes/class-admin.php:355
+msgid "Donors"
+msgstr "Donateurs"
+
+#: includes/class-admin.php:82 includes/class-admin.php:83
+#: includes/class-start.php:112
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class-admin.php:95 includes/class-admin.php:96
+#: includes/class-admin.php:272 includes/class-admin.php:511
+msgid "Donation"
+msgstr "Donatie"
+
+#: includes/class-admin.php:153 includes/class-admin.php:374
+#: includes/class-admin.php:708 includes/class-start.php:157
+msgid "No API-key set"
+msgstr "Geen API-key ingesteld"
+
+#: includes/class-admin.php:180
+msgid "The donation is successful refunded to the donator"
+msgstr "De donatie is succesvol teruggestort naar de donateur"
+
+#: includes/class-admin.php:183
+msgid "The donation can not be refunded"
+msgstr "De donatie kan niet worden teruggestort"
+
+#: includes/class-admin.php:186
+msgid "The donations have been successfully removed from the database"
+msgstr "De donaties zijn succesvol verwijderd uit de database"
+
+#: includes/class-admin.php:202 includes/class-admin.php:203
+msgid "Search"
+msgstr "Zoeken"
+
+#: includes/class-admin.php:205
+msgid "Export"
+msgstr "Exporteren"
+
+#: includes/class-admin.php:218 includes/class-donations-table.php:8
+#: includes/class-subscriptions-table.php:6
+msgid "Date/time"
+msgstr "Datum/tijd"
+
+#: includes/class-admin.php:219 includes/class-admin.php:285
+#: includes/class-admin.php:601 includes/class-donations-table.php:11
+#: includes/class-donors-table.php:6 includes/class-start.php:377
+#: includes/class-subscriptions-table.php:7
+msgid "Name"
+msgstr "Naam"
+
+#: includes/class-admin.php:220 includes/class-admin.php:295
+#: includes/class-admin.php:625 includes/class-donations-table.php:14
+#: includes/class-start.php:384
+msgid "Company name"
+msgstr "Bedrijfsnaam"
+
+#: includes/class-admin.php:221 includes/class-admin.php:290
+#: includes/class-admin.php:607 includes/class-donations-table.php:17
+#: includes/class-donors-table.php:7 includes/class-start.php:391
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: includes/class-admin.php:222 includes/class-admin.php:300
+#: includes/class-admin.php:613 includes/class-start.php:398
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: includes/class-admin.php:223 includes/class-admin.php:305
+#: includes/class-admin.php:619 includes/class-start.php:405
+msgid "Address"
+msgstr "Adres"
+
+#: includes/class-admin.php:224 includes/class-start.php:409
+msgid "Zipcode"
+msgstr "Postcode"
+
+#: includes/class-admin.php:225 includes/class-start.php:413
+msgid "City"
+msgstr "Plaats"
+
+#: includes/class-admin.php:226 includes/class-start.php:417
+msgid "Country"
+msgstr "Land"
+
+#: includes/class-admin.php:227 includes/class-admin.php:310
+#: includes/class-admin.php:637 includes/class-donations-table.php:22
+#: includes/class-start.php:424
+msgid "Project"
+msgstr "Project"
+
+#: includes/class-admin.php:228 includes/class-admin.php:315
+#: includes/class-admin.php:631 includes/class-start.php:431
+msgid "Message"
+msgstr "Bericht"
+
+#: includes/class-admin.php:229 includes/class-admin.php:320
+#: includes/class-donations-table.php:19 includes/class-start.php:438
+#: includes/class-subscriptions-table.php:8
+msgid "Amount"
+msgstr "Bedrag"
+
+#: includes/class-admin.php:230 includes/class-donations-table.php:24
+#: includes/class-subscriptions-table.php:10
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-admin.php:231 includes/class-admin.php:325
+msgid "Payment method"
+msgstr "Betaalmethode"
+
+#: includes/class-admin.php:232 includes/class-admin.php:335
+#: includes/class-donations-table.php:25
+msgid "Donation ID"
+msgstr "Donatie ID"
+
+#: includes/class-admin.php:233 includes/class-admin.php:340
+msgid "Payment ID"
+msgstr "Transactie ID"
+
+#: includes/class-admin.php:330
+msgid "Payment status"
+msgstr "Betaalstatus"
+
+#: includes/class-admin.php:406
+msgid "The subscription is successful cancelled"
+msgstr "Het abonnement is succesvol geannuleerd"
+
+#: includes/class-admin.php:409
+msgid "The subscription is not cancelled"
+msgstr "Het abonnement is niet geannuleerd"
+
+#: includes/class-admin.php:438 includes/class-start.php:625
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/class-admin.php:439
+msgid "Form"
+msgstr "Formulier"
+
+#: includes/class-admin.php:440
+msgid "Mollie settings"
+msgstr "Mollie instellingen"
+
+#: includes/class-admin.php:441
+msgid "Recurring payments"
+msgstr "Herhaalbetalingen"
+
+#: includes/class-admin.php:475
+msgid "Amounts"
+msgstr "Bedragen"
+
+#: includes/class-admin.php:479
+#, php-format
+msgid "Separate amounts with /. Example: \"%s\""
+msgstr "Scheid bedragen met een /. Voorbeeld: \"%s\""
+
+#: includes/class-admin.php:484
+msgid "Free input"
+msgstr "Vrije invoer"
+
+#: includes/class-admin.php:492
+msgid "Default amount"
+msgstr "Standaard bedrag"
+
+#: includes/class-admin.php:500
+msgid "Minimum amount"
+msgstr "Minimum bedrag"
+
+#: includes/class-admin.php:508
+msgid "Payment description"
+msgstr "Betalingsomschrijving"
+
+#: includes/class-admin.php:512
+#, php-format
+msgid "You can use: %s"
+msgstr "Je kunt gebruiken: %s"
+
+#: includes/class-admin.php:517
+msgid "Payment methods"
+msgstr "Betaalmethodes"
+
+#: includes/class-admin.php:521
+msgid "Icons & text"
+msgstr "Icoontjes & tekst"
+
+#: includes/class-admin.php:522
+msgid "Only text"
+msgstr "Alleen tekst"
+
+#: includes/class-admin.php:523
+msgid "Only icons"
+msgstr "Alleen icoontjes"
+
+#: includes/class-admin.php:524
+msgid "Dropdown"
+msgstr "Keuzemenu"
+
+#: includes/class-admin.php:529
+msgid "Page after successful donation"
+msgstr "Pagina na succesvolle donatie"
+
+#: includes/class-admin.php:530 includes/class-admin.php:534
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/class-admin.php:533
+msgid "Page after failed donation"
+msgstr "Pagina na mislukte donatie"
+
+#: includes/class-admin.php:538
+msgid "Projects"
+msgstr "Projecten"
+
+#: includes/class-admin.php:542
+msgid "Each project on a new line"
+msgstr "Elk project op een nieuwe regel"
+
+#: includes/class-admin.php:547
+msgid "Rights donations"
+msgstr "Rechten donaties"
+
+#: includes/class-admin.php:551 includes/class-admin.php:563
+msgid "Administrator"
+msgstr "Beheerder"
+
+#: includes/class-admin.php:552 includes/class-admin.php:564
+msgid "Editor"
+msgstr "Bewerker"
+
+#: includes/class-admin.php:553 includes/class-admin.php:565
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/class-admin.php:559
+msgid "Rights subscriptions"
+msgstr "Rechten abonnementen"
+
+#: includes/class-admin.php:584
+msgid "Fields"
+msgstr "Velden"
+
+#: includes/class-admin.php:593
+msgid "Field"
+msgstr "Veld"
+
+#: includes/class-admin.php:594 includes/class-subscriptions-table.php:86
+msgid "Active"
+msgstr "Actief"
+
+#: includes/class-admin.php:595
+msgid "Required"
+msgstr "Verplicht"
+
+#: includes/class-admin.php:648
+msgid "Classes"
+msgstr "Classes"
+
+#: includes/class-admin.php:653
+msgid "Form class"
+msgstr "Formulier class"
+
+#: includes/class-admin.php:661
+msgid "Form fields class"
+msgstr "Formuliervelden class"
+
+#: includes/class-admin.php:669
+msgid "Form button class"
+msgstr "Formulier knop class"
+
+#: includes/class-admin.php:677
+msgid "Message success class"
+msgstr "Succesmelding class"
+
+#: includes/class-admin.php:685
+msgid "Message failure class"
+msgstr "Errormelding class"
+
+#: includes/class-admin.php:726
+msgid "Activate recurring payments"
+msgstr "Activeer herhaalbetalingen"
+
+#: includes/class-admin.php:730
+msgid "Creditcard or SEPA Direct Debit is necessary"
+msgstr "Creditcard of SEPA-incasso is noodzakelijk"
+
+#: includes/class-admin.php:740
+msgid "Name of the foundation"
+msgstr "Naam van de stichting"
+
+#: includes/class-admin.php:748
+msgid "Possible intervals"
+msgstr "Mogelijke intervallen"
+
+#: includes/class-admin.php:751 includes/class-admin.php:763
+#: includes/class-start.php:361 includes/class-subscriptions-table.php:67
+msgid "Monthly"
+msgstr "Maandelijks"
+
+#: includes/class-admin.php:752 includes/class-admin.php:764
+#: includes/class-start.php:364 includes/class-subscriptions-table.php:70
+msgid "Each quarter"
+msgstr "Elk kwartaal"
+
+#: includes/class-admin.php:753 includes/class-admin.php:765
+#: includes/class-start.php:367 includes/class-subscriptions-table.php:73
+msgid "Annually"
+msgstr "Jaarlijks"
+
+#: includes/class-admin.php:758
+msgid "Default interval"
+msgstr "Standaard interval"
+
+#: includes/class-admin.php:762 includes/class-start.php:359
+msgid "One-time donation"
+msgstr "Eenmalige donatie"
+
+#: includes/class-admin.php:789
+msgid "API-key"
+msgstr "API-key"
+
+#: includes/class-admin.php:793
+msgid "Starts with live_ or test_"
+msgstr "Begint met live_ of test_"
+
+#: includes/class-donations-table.php:35
+#: includes/class-subscriptions-table.php:24
+msgid "View"
+msgstr "Bekijken"
+
+#: includes/class-donations-table.php:38
+#: includes/class-subscriptions-table.php:25
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: includes/class-donations-table.php:38
+msgid "Refund"
+msgstr "Terugstorten"
+
+#: includes/class-donations-table.php:80
+msgid "Open"
+msgstr "Open"
+
+#: includes/class-donations-table.php:82
+#: includes/class-subscriptions-table.php:89
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+#: includes/class-donations-table.php:84
+#: includes/class-subscriptions-table.php:83
+msgid "Pending"
+msgstr "Bezig"
+
+#: includes/class-donations-table.php:86
+msgid "Expired"
+msgstr "Verlopen"
+
+#: includes/class-donations-table.php:88
+msgid "Paid"
+msgstr "Betaald"
+
+#: includes/class-donations-table.php:90
+msgid "Paid out"
+msgstr "Uitbetaald"
+
+#: includes/class-donations-table.php:92
+msgid "Refunded"
+msgstr "Teruggestort"
+
+#: includes/class-donations-table.php:94
+msgid "Charged back"
+msgstr "Teruggevorderd"
+
+#: includes/class-donors-table.php:9
+msgid "Customer ID"
+msgstr "Klant ID"
+
+#: includes/class-start.php:21
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: includes/class-start.php:22
+msgid "Creditcard"
+msgstr "Creditcard"
+
+#: includes/class-start.php:23
+msgid "Bancontact/Mister Cash"
+msgstr "Bancontact"
+
+#: includes/class-start.php:24
+msgid "SOFORT Banking"
+msgstr "SOFORT Banking"
+
+#: includes/class-start.php:25
+msgid "Bank transfer"
+msgstr "Overboeking"
+
+#: includes/class-start.php:26
+msgid "SEPA Direct Debit"
+msgstr "SEPA-incasso"
+
+#: includes/class-start.php:27
+msgid "Belfius Direct Net"
+msgstr "Belfius Direct Net"
+
+#: includes/class-start.php:28
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/class-start.php:29
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: includes/class-start.php:30
+msgid "PODIUM Cadeaukaart"
+msgstr "PODIUM Cadeaukaart"
+
+#: includes/class-start.php:31
+msgid "Paysafecard"
+msgstr "Paysafecard"
+
+#: includes/class-start.php:169
+msgid "Your name is required"
+msgstr "Uw naam is verplicht"
+
+#: includes/class-start.php:172
+msgid "Your email address is required"
+msgstr "Uw e-mailadres is verplicht"
+
+#: includes/class-start.php:175
+msgid "Please give authorization to collect from your account"
+msgstr "Gelieve toestemming te geven om het geld te incasseren van uw rekening"
+
+#: includes/class-start.php:178
+msgid "Your phone number is required"
+msgstr "Uw telefoonnummer is verplicht"
+
+#: includes/class-start.php:181
+msgid "Your company name is required"
+msgstr "Uw bedrijfsnaam is verplicht"
+
+#: includes/class-start.php:184
+msgid "Your address is required"
+msgstr "Uw adres is verplicht"
+
+#: includes/class-start.php:187
+msgid "Your city is required"
+msgstr "Uw woonplaats is verplicht"
+
+#: includes/class-start.php:190
+msgid "Your zipcode is required"
+msgstr "Uw postcode is verplicht"
+
+#: includes/class-start.php:193
+msgid "Your country is required"
+msgstr "Uw land is verplicht"
+
+#: includes/class-start.php:196
+msgid "A message is required"
+msgstr "Een bericht is verplicht"
+
+#: includes/class-start.php:199
+msgid "Please choose an amount"
+msgstr "Gelieve een bedrag te selecteren"
+
+#: includes/class-start.php:202
+msgid "The amount is too low, please choose a higher amount"
+msgstr "Het bedrag is te laag, gelieve een hoger bedrag te kiezen"
+
+#: includes/class-start.php:335
+msgid "Thank you for your donation!"
+msgstr "Bedankt voor uw donatie!"
+
+#: includes/class-start.php:345
+msgid "The payment was not successful, please try again."
+msgstr "De betaling is mislukt, probeer het opnieuw."
+
+#: includes/class-start.php:445
+msgid "Enter your own amount"
+msgstr "Eigen bedrag invoeren"
+
+#: includes/class-start.php:483
+#, php-format
+msgid ""
+"I hereby authorize %s to collect the amount shown above from my account "
+"periodically."
+msgstr ""
+"Hierbij machtig ik %s om het bovenstaande bedrag periodiek van mijn "
+"rekeningnummer af te schrijven."
+
+#: includes/class-start.php:485
+msgid "Donate"
+msgstr "Doneren"
+
+#: includes/class-start.php:588
+msgid "Choose a payment method"
+msgstr "Kies een betaalmethode"
+
+#: includes/class-subscriptions-table.php:9
+msgid "Interval"
+msgstr "Interval"
+
+#: includes/class-subscriptions-table.php:12
+msgid "Subscription ID"
+msgstr "Abonnement ID"
+
+#: includes/class-subscriptions-table.php:25
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/class-subscriptions-table.php:92
+msgid "Suspended"
+msgstr "Geschorst"
+
+#: includes/class-subscriptions-table.php:95
+msgid "Completed"
+msgstr "Voltooid"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
